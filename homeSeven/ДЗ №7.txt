@@ -1,0 +1,12 @@
+1. Найти и указать в проекте Front Controller и расписать классы, которые с ним взаимодействуют.
+
+namespace Controller;
+        UserController.php
+        ProductController.php
+        OrderController.php
+        MainController.php
+
+
+2. Найти в проекте паттерн Registry и объяснить, почему он был применён.
+
+Больше всего, по-моему, на эту роль подходит "namespace Controller\". Но если говорить о геттерах и сеттерах, то "namespace Model\Entity".Поскольку "Реестр" должен быть хранилищем объектов одной идентичности.
